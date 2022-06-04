@@ -1,0 +1,145 @@
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+    position:relative;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:#fff;
+    
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid{
+    padding:3% 15%;
+    padding-bottom:0;
+}
+ul{
+    margin-left:60%;
+}
+.navbar-brand{
+    color:red;
+    font-size:3rem;
+    font-family: 'Sacramento', cursive;
+    padding:0 0 1.5rem;
+}
+.nav-item{
+    margin:10%;
+    font-family:Montserrat-light;
+    font-size:1.3rem;
+}
+.image-title{
+   
+    transform:rotate(25deg);
+    position:relative;
+    width:60%;
+    
+}
+ /* BUTTON STYLE */
+ .download{
+     margin:5% 3% 5% 0;
+ }
+ #features{
+     padding:7% 13%;
+     position:relative;
+    background-color:#fff;
+    z-index:1;
+ }
+ 
+ .second-section-text{
+    text-align:center;
+    
+    
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{
+    color:grey;
+    padding:0 4rem;
+    
+}
+.icon{
+    color:#e0596d;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    
+    text-align:center;
+    background-color:#ef8172;
+    color:#fff;
+}
+.testimonial-image{
+    width:20%;
+    border-radius:100%;
+    margin:20px;
+}
+#press{
+    background-color:#ef8172;
+    text-align:center;
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    text-align:center;
+    padding:5% 3%;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+.primary-box{
+    padding:3% 2%;
+    text-align:center;
+}
+
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+    padding:7% 15%;
+    
+}
+.cts-heading{
+    color:#fff;
+    font-size:3.5rem;
+}
+
+#footer{
+text-align:center;
+padding:7% 15%;
+background:#fff;
+}
+.footer-image{
+    margin-right:2%;
+}
+
+/* Media Query */
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .image-title{
+   
+        transform:rotate(0deg);
+        position:relative;
+      
+        
+    }
+}
+
